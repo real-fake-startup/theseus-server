@@ -13,7 +13,7 @@ module.exports = function(app) {
       lastName: { type: String, required: true },
       department: { type: String },
       businessTitle: { type: String },
-      enabled: { type: boolean, default: true, required: true }
+      enabled: { type: Boolean, default: true, required: true }
     },
     {
       timestamps: true
